@@ -16,11 +16,5 @@ class FirebaseController extends Controller
  
         $database = $firebase->createDatabase();
  
-        /* $blog = $database
-        ->getReference('blog');
- 
-        echo '<pre>';
-        print_r($blog->getvalue());
-        echo '</pre>'; */
     }
 }

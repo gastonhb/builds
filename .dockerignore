@@ -1,0 +1,167 @@
+# flyctl launch added from .gitignore
+node_modules
+public\build
+public\hot
+public\storage
+storage\*.key
+vendor
+**\.env
+**\.env.backup
+**\.env.production
+**\.phpunit.result.cache
+**\Homestead.json
+**\Homestead.yaml
+**\auth.json
+**\npm-debug.log
+**\yarn-error.log
+.fleet
+.idea
+.vscode
+
+# flyctl launch added from bootstrap\cache\.gitignore
+bootstrap\cache\**\*
+!bootstrap\cache\**\.gitignore
+
+# flyctl launch added from database\.gitignore
+database\**\*.sqlite*
+
+# flyctl launch added from storage\app\.gitignore
+storage\app\**\*
+!storage\app\**\public
+!storage\app\**\.gitignore
+
+# flyctl launch added from storage\app\public\.gitignore
+storage\app\public\**\*
+!storage\app\public\**\.gitignore
+
+# flyctl launch added from storage\framework\.gitignore
+storage\framework\**\compiled.php
+storage\framework\**\config.php
+storage\framework\**\down
+storage\framework\**\events.scanned.php
+storage\framework\**\maintenance.php
+storage\framework\**\routes.php
+storage\framework\**\routes.scanned.php
+storage\framework\**\schedule-*
+storage\framework\**\services.json
+
+# flyctl launch added from storage\framework\cache\.gitignore
+storage\framework\cache\**\*
+!storage\framework\cache\**\data
+!storage\framework\cache\**\.gitignore
+
+# flyctl launch added from storage\framework\cache\data\.gitignore
+storage\framework\cache\data\**\*
+!storage\framework\cache\data\**\.gitignore
+
+# flyctl launch added from storage\framework\sessions\.gitignore
+storage\framework\sessions\**\*
+!storage\framework\sessions\**\.gitignore
+
+# flyctl launch added from storage\framework\testing\.gitignore
+storage\framework\testing\**\*
+!storage\framework\testing\**\.gitignore
+
+# flyctl launch added from storage\framework\views\.gitignore
+storage\framework\views\**\*
+!storage\framework\views\**\.gitignore
+
+# flyctl launch added from storage\logs\.gitignore
+storage\logs\**\*
+!storage\logs\**\.gitignore
+
+# flyctl launch added from vendor\beste\json\tools\.gitignore
+vendor\beste\json\tools\**\phpstan\*
+!vendor\beste\json\tools\**\phpstan\composer.json
+
+vendor\beste\json\tools\**\psalm\*
+!vendor\beste\json\tools\**\psalm\composer.json
+
+# flyctl launch added from vendor\fig\http-message-util\.gitignore
+vendor\fig\http-message-util\**\vendor
+
+# flyctl launch added from vendor\google\crc32\.gitignore
+vendor\google\crc32\**\vendor
+vendor\google\crc32\**\.php_cs.cache
+vendor\google\crc32\**\ext\.deps
+vendor\google\crc32\**\ext\crc32c
+vendor\google\crc32\**\*~
+vendor\google\crc32\**\composer.lock
+
+# flyctl launch added from vendor\google\crc32\ext\.gitignore
+vendor\google\crc32\ext\**\*.lo
+vendor\google\crc32\ext\**\*.la
+vendor\google\crc32\ext\**\.libs
+vendor\google\crc32\ext\**\acinclude.m4
+vendor\google\crc32\ext\**\aclocal.m4
+vendor\google\crc32\ext\**\autom4te.cache
+vendor\google\crc32\ext\**\build
+vendor\google\crc32\ext\**\config.guess
+vendor\google\crc32\ext\**\config.h
+vendor\google\crc32\ext\**\config.h.in
+vendor\google\crc32\ext\**\config.log
+vendor\google\crc32\ext\**\config.nice
+vendor\google\crc32\ext\**\config.status
+vendor\google\crc32\ext\**\config.sub
+vendor\google\crc32\ext\**\configure
+vendor\google\crc32\ext\**\configure.ac
+vendor\google\crc32\ext\**\configure.in
+vendor\google\crc32\ext\**\include
+vendor\google\crc32\ext\**\install-sh
+vendor\google\crc32\ext\**\libtool
+vendor\google\crc32\ext\**\ltmain.sh
+vendor\google\crc32\ext\**\Makefile
+vendor\google\crc32\ext\**\Makefile.fragments
+vendor\google\crc32\ext\**\Makefile.global
+vendor\google\crc32\ext\**\Makefile.objects
+vendor\google\crc32\ext\**\missing
+vendor\google\crc32\ext\**\mkinstalldirs
+vendor\google\crc32\ext\**\modules
+vendor\google\crc32\ext\**\run-tests.php
+vendor\google\crc32\ext\**\tests\*\*.diff
+vendor\google\crc32\ext\**\tests\*\*.out
+vendor\google\crc32\ext\**\tests\*\*.php
+vendor\google\crc32\ext\**\tests\*\*.exp
+vendor\google\crc32\ext\**\tests\*\*.log
+vendor\google\crc32\ext\**\tests\*\*.sh
+
+# flyctl launch added from vendor\hamcrest\hamcrest-php\.gitignore
+vendor\hamcrest\hamcrest-php\**\composer.lock
+vendor\hamcrest\hamcrest-php\**\vendor
+
+# flyctl launch added from vendor\psr\container\.gitignore
+vendor\psr\container\**\composer.lock
+vendor\psr\container\**\composer.phar
+vendor\psr\container\vendor
+
+# flyctl launch added from vendor\psr\event-dispatcher\.gitignore
+vendor\psr\event-dispatcher\vendor
+vendor\psr\event-dispatcher\**\composer.lock
+
+# flyctl launch added from vendor\psr\http-factory\.gitignore
+vendor\psr\http-factory\**\composer.lock
+vendor\psr\http-factory\**\vendor
+
+# flyctl launch added from vendor\rize\uri-template\.gitignore
+vendor\rize\uri-template\**\vendor
+vendor\rize\uri-template\**\composer.lock
+vendor\rize\uri-template\**\.DS_Store
+
+# flyctl launch added from vendor\sebastian\resource-operations\.gitignore
+vendor\sebastian\resource-operations\.idea
+vendor\sebastian\resource-operations\.php_cs.cache
+vendor\sebastian\resource-operations\build\FunctionSignatureMap.php
+vendor\sebastian\resource-operations\composer.lock
+vendor\sebastian\resource-operations\vendor
+vendor\sebastian\resource-operations\.phpunit.result.cache
+
+# flyctl launch added from vendor\sebastian\version\.gitignore
+vendor\sebastian\version\.php_cs.cache
+vendor\sebastian\version\.idea
+
+# flyctl launch added from vendor\spatie\ignition\resources\compiled\.gitignore
+vendor\spatie\ignition\resources\compiled\**\*
+!vendor\spatie\ignition\resources\compiled\**\.gitignore
+!vendor\spatie\ignition\resources\compiled\**\ignition.css
+!vendor\spatie\ignition\resources\compiled\**\ignition.js
+fly.toml

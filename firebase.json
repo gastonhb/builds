@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "resources/views/checkArtifact/index.blade.php", 
     "ignore": [
       "firebase.json",
       "**/.*",
