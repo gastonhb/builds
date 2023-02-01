@@ -1,18 +1,8 @@
 {
-    "version": 2,
-    "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.5.2" }
-    },
-    "routes": [{
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-    }],
-    "env": {
-        "APP_ENV": "production",
-        "APP_DEBUG": "true",
-        "APP_URL": "https://builds-5z1y5iadt-gastonhb.vercel.app",
-        "CACHE_DRIVER": "array",
-        "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie"
-    }
-}
+    "funciones" : {
+      "api/*.php" : {
+        "tiempo de ejecución" : " vercel-php@0.5.2 "
+     }
+   }
+ }
+
