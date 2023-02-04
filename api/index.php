@@ -1,6 +1,6 @@
 <?php
-
-// Forward Vercel requests to normal index.php
- require __DIR__ . '/routes/web.php';
- //require __DIR__.'/../public/index.php';
-//phpinfo();
+/**
+ * Here is the serverless function entry
+ * for deployment with Vercel.
+ */
+require __DIR__.'/../public/index.php';
